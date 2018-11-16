@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center">
+
+<ImageView
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="@drawable/cam"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Califica la mejor pelicula"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="9pt"
+            android:text="Avengers: Infinity war"/>
+
+        <TextView
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:id="@+id/tv_puntajeAvengers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"/>
+
+        <RatingBar
+            android:id="@+id/rbar_infinity"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:numStars="5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="9pt"
+            android:text="Bohemian Rhapsody"/>
+
+        <TextView
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:id="@+id/tv_puntajeBohemian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"/>
+
+        <RatingBar
+            android:id="@+id/rbar_bohemian"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:numStars="5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="9pt"
+            android:text="Los Increibles 2"/>
+
+        <TextView
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:id="@+id/tv_puntajeIncreibles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"/>
+
+        <RatingBar
+            android:id="@+id/rbar_increibles"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:numStars="5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="9pt"
+            android:text="Deadpool 2"/>
+
+        <TextView
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:id="@+id/tv_puntajeDeadpool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"/>
+
+        <RatingBar
+            android:id="@+id/rbar_deadpool"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:numStars="5"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
